@@ -13,4 +13,4 @@ jobs:
         npm test
   include:
     - stage: Container
-      script: sh source ~/.bashrc && cd Central && sh build.sh container
+      script: ./build.sh container
