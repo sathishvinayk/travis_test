@@ -1,0 +1,9 @@
+# language: node_js
+sudo: false
+dist: trusty
+
+jobs:
+  include:
+    - stage: Build
+      install:
+        npm install
