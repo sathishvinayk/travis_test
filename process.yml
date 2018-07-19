@@ -1,0 +1,5 @@
+apps:
+  - script   : './bin/www'
+    name     : 'Centrali-App'
+    exec_mode: 'cluster'
+    instances: 4

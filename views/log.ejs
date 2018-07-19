@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audit</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Order details</h1>
+    <ul>
+      <% list.forEach(function (el) { %>
+      <li>at: <%= new Date(el.ts).toLocaleString() %>, Id is: <%= el.c_data %></li>
+      <% }) %>
+    </ul>
+  </body>
+</html>

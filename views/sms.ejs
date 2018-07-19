@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Sms</title>
+        <link rel = 'stylesheet' href = '/stylesheets/style.css' />
+    </head>
+    <body>
+        <h1>Test site which takes id and name to send sms</h1>
+        <form id = 'sms-form' action="/sms/p" method="post">
+            <label>Enter the Id of customer</label>
+            <input type = 'text' id = 'c_id' name = 'c_id' value =""/>
+            <label>Enter the name of customer</label>
+            <input type = 'text' id = 'c_name' name = 'c_name' value =""/>
+
+            <br><br><br>
+            <label>Enter the name of list of no. with comma seperated</label><br>
+            <input width="200" height="100" id='c_no' name='c_no' value="" />
+            <!-- <label>Enter the name of customer no</label>
+            <input type='text' id='c_no' name='c_no' value="" /> -->
+
+        </form>
+        <button type = 'submit' form = 'sms-form' value="Submit">Submit</button>
+        <% if (result) { %>
+            <h2>Status = <%= result %></h2>
+        <% } %>
+    </body>
+</html>

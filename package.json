@@ -1,0 +1,31 @@
+{
+  "name": "central",
+  "version": "v2.0.0",
+  "private": true,
+  "description": "public facing layer, gets all the routes",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Sathish",
+  "dependencies": {
+    "bl": "^2.0.0",
+    "concordant": "^2.0.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "duplexify": "^3.6.0",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "helmet": "^3.12.1",
+    "http-errors": "~1.6.2",
+    "joi": "^13.4.0",
+    "lazy-cache": "^2.0.2",
+    "morgan": "~1.9.0",
+    "pump": "^3.0.0",
+    "redis": "^2.8.0",
+    "restify": "^7.1.0",
+    "restify-clients": "^2.0.1",
+    "through2": "^2.0.3",
+    "varint": "^5.0.0"
+  }
+}
