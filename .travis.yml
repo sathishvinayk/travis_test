@@ -14,4 +14,4 @@ jobs:
   include:
     - stage: Container
       script: source ~/.bashrc
-      script: ./build.sh container
+      script: sh build.sh container
