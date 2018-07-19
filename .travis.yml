@@ -11,3 +11,6 @@ jobs:
     - stage: Test
       install:
         npm test
+  include:
+    - stage: Container
+      script: build.sh container
