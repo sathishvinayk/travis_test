@@ -7,3 +7,7 @@ jobs:
     - stage: Build
       install:
         npm install
+  include:
+    - stage: Test
+      install:
+        npm test
